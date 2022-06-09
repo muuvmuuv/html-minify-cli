@@ -9,6 +9,7 @@ repository = "https://github.com/muuvmuuv/html-minify-cli"
 readme = "README.md"
 keywords = ["cli", "minify", "html", "css", "js"]
 categories = ["command-line-utilities", "compression"]
+exclude = ["assets/*", ".*"]
 
 [dependencies]
 minify-html = { version = "0.8.0", features = ["js-esbuild"] }

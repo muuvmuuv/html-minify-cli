@@ -5,7 +5,7 @@
 Minify html from the command line.
 
 ```
-cargo install ...
+cargo install html-minify
 ```
 
 ```

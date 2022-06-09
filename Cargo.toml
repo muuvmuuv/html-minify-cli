@@ -1,0 +1,8 @@
+[package]
+name = "html-minify"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+minify-html = { version = "0.8.0", features = ["js-esbuild"] }
+pretty-bytes = "0.2.2"

@@ -2,6 +2,13 @@
 name = "html-minify"
 version = "0.1.0"
 edition = "2021"
+license = "GPLv3"
+description = "Minify html with wilsonzlin/minify-html crate from the command line"
+homepage = "https://github.com/muuvmuuv/html-minify-cli"
+repository = "https://github.com/muuvmuuv/html-minify-cli"
+readme = "README.md"
+keywords = ["cli", "minify", "html", "css", "js"]
+categories = ["command-line-utilities", "compression"]
 
 [dependencies]
 minify-html = { version = "0.8.0", features = ["js-esbuild"] }
